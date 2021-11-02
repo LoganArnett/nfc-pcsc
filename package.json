@@ -47,10 +47,11 @@
     "example-uid-logger": "node -r @babel/register examples/uid-logger.js",
     "example-without-auto": "node -r @babel/register examples/without-auto.js",
     "prepack": "yarn build && yarn test",
-    "test": "cross-env NODE_ENV=test ava test/tests.js --verbose"
+    "test": "cross-env NODE_ENV=test ava test/tests.js --verbose",
+    "postinstall": "npm run build"
   },
   "dependencies": {
-    "@pokusew/pcsclite": "^0.6.0"
+    "@pokusew/pcsclite": "MVRK-HQ/MVRK-node-pcsclite"
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
