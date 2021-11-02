@@ -51,7 +51,7 @@
     "postinstall": "npm run build"
   },
   "dependencies": {
-    "@pokusew/pcsclite": "MVRK-HQ/MVRK-node-pcsclite"
+    "@pokusew/pcsclite": "github:MVRK-HQ/MVRK-node-pcsclite"
   },
   "devDependencies": {
     "@ava/babel": "^1.0.1",
